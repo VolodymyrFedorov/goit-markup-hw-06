@@ -344,6 +344,13 @@ button:focus {
 
 .h-li {
   margin-bottom: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--studio);
 }
 
 .section-three {
@@ -422,6 +429,7 @@ button:focus {
 .sotial_network {
   width: 40px;
   height: 40px;
+  margin-top: 8px;
 }
 
 .sotial-link {
@@ -545,7 +553,7 @@ button:focus {
 
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  margin: auto;
 }
 
 .logo-footer {
@@ -617,6 +625,9 @@ button:focus {
 
 .footer-logo-span {
   margin-right: 120px;
+  margin-left: 156px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .modal-div {
