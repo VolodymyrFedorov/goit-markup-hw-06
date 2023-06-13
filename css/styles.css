@@ -106,7 +106,7 @@ body {
 
 .main-nav {
   position: relative;
-  color: #2e2f42;;
+  color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
   display: inline-block;
@@ -117,7 +117,7 @@ body {
   color: #404bbf;
 }
 
-.main-nav::after {
+.is-active::after {
   content: "";
   position: absolute;
   left: 0;
