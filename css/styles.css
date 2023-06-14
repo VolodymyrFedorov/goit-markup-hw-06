@@ -738,7 +738,7 @@ button:focus {
   border-color: #4d5ae5;
 }
 
-.modal-input:focus .modal-icon-input {
+.modal-input:focus + .modal-icon-input {
   fill: #4d5ae5;
 }
 
