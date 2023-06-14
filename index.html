@@ -395,23 +395,43 @@
     </footer>
     <div data-modal class="modal-div is-hidden">
       <div class="modal-window">
-        <button data-modal-close class="modal-close" type="button"></button>
-        <p class="modal-paragraph">#</p>
+        <button data-modal-close class="modal-close" type="button">
+           <svg width="8" height="8" class="modal-icon">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+        </button>
+        <p class="modal-paragraph">Leave your contacts and we will call you back</p>
         <form>
           <div class="form-div">
             <label for="user-name" class="label-name">Name</label>
             <div class="modal-thumb">
               <input type="text" id="user-name" name="user-name" class="modal-input" />
               <svg width="18" height="24" class="modal-icon-input">
-                <use href=""></use>
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-div">
+            <label for="user-name" class="label-name">Phone</label>
+            <div class="modal-thumb">
+              <input type="text" id="user-name" name="user-name" class="modal-input" />
+              <svg width="18" height="24" class="modal-icon-input">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-div">
+            <label for="user-name" class="label-name">Email</label>
+            <div class="modal-thumb">
+              <input type="text" id="user-name" name="user-name" class="modal-input" />
+              <svg width="18" height="24" class="modal-icon-input">
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
         </form>
 
-        <svg width="8" height="8" class="modal-icon">
-          <use href="./images/icons.svg#icon-close"></use>
-        </svg>
+       
       </div>
     </div>
     <script src="./js/modal.js"></script>

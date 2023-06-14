@@ -738,10 +738,10 @@ button:focus {
   fill: #4D5AE5;
 }
 
-.modal-close:hover,
+/* .modal-close:hover,
 .modal-close:focus {
   fill: #ffffff;
-}
+} */
 
 .modal-input {
    width: 100%; 
