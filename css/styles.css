@@ -806,8 +806,16 @@ button:focus {
 .input-checkbox:checked + .label-checkbox > .fake-checkbox {
   background-color: var(--focus-color);
   fill: #f4f4fd;
+  border: none;
 }
 
 .privacy-policy {
   color: var(--logo-color);
+}
+
+.label-checkbox {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--customer);
 }
