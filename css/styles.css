@@ -787,8 +787,8 @@ input::placeholder {
 
 .modal-icon-input {
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 18px;
+  height: 24px;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
@@ -863,6 +863,7 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .input-checkbox:checked + .label-checkbox > .fake-checkbox {
