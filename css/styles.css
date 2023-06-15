@@ -796,6 +796,10 @@ input::placeholder {
   fill: #2e2f42;
 }
 
+.icon-check {
+  margin-top: 3px;
+}
+
 .modal-input:focus {
   border-color: #4d5ae5;
 }
